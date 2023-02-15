@@ -261,3 +261,29 @@ jakarta.validation.NoProviderFoundException: Unable to create a Configuration, b
 2023-02-15T20:30:02.730+01:00  WARN 46455 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-02-15T20:30:03.236+01:00  INFO 46455 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path '/SpringMVC'
 2023-02-15T20:30:03.246+01:00  INFO 46455 --- [main] com.example.labo.LaboApplication         : Started LaboApplication in 2.884 seconds (process running for 3.579)
+2023-02-15T20:45:18.026+01:00  INFO 46455 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15T20:45:18.028+01:00  INFO 46455 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-15T20:45:18.032+01:00  INFO 46455 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-02-15 20:46:20.089  INFO 46981 --- [main] com.example.labo.LaboApplication         : Starting LaboApplication using Java 18.0.2 on Hanas-MBP.home with PID 46981 (/Users/hana/IdeaProjects/Labo/target/classes started by hana in /Users/hana/IdeaProjects/Labo)
+2023-02-15 20:46:20.091  INFO 46981 --- [main] com.example.labo.LaboApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-02-15 20:46:20.757  INFO 46981 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-02-15 20:46:20.770  INFO 46981 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2023-02-15 20:46:21.234  INFO 46981 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8087 (http)
+2023-02-15 20:46:21.243  INFO 46981 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-15 20:46:21.244  INFO 46981 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-02-15 20:46:21.339  INFO 46981 --- [main] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2023-02-15 20:46:21.339  INFO 46981 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1182 ms
+2023-02-15 20:46:21.502  INFO 46981 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-02-15 20:46:21.546  INFO 46981 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-02-15 20:46:21.699  INFO 46981 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-02-15 20:46:21.794  INFO 46981 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-02-15 20:46:22.109  INFO 46981 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-02-15 20:46:22.123  INFO 46981 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2023-02-15 20:46:22.643  INFO 46981 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-02-15 20:46:22.651  INFO 46981 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 20:46:22.800  WARN 46981 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-02-15 20:46:23.405  INFO 46981 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8087 (http) with context path '/SpringMVC'
+2023-02-15 20:46:23.416  INFO 46981 --- [main] com.example.labo.LaboApplication         : Started LaboApplication in 3.723 seconds (JVM running for 4.357)
+2023-02-15 20:48:04.189  INFO 46981 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-02-15 20:48:04.190  INFO 46981 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-02-15 20:48:04.194  INFO 46981 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

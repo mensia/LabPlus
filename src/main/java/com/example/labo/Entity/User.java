@@ -1,8 +1,9 @@
-package Entity;
+package com.example.labo.Entity;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 import java.io.Serializable;
 
 
@@ -14,7 +15,7 @@ import java.io.Serializable;
 @ToString
 
 @Entity
-public class user implements Serializable {
+public class User implements Serializable {
     private static final long haja= 1L;
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
