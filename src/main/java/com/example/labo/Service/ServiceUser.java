@@ -16,12 +16,16 @@ import java.util.Set;
     @Service
     @Slf4j
 public class ServiceUser {
-
         @Autowired
         UserRepo userRepo;
 
-        public User ajouterClient(User client) {
+        public User ajouterUser(User client) {
             return userRepo.save(client);
+        }
+        public List<User> getUsers() {
+            List<User> users = userRepo.findAll();
+
+            return users;
         }
 //
 //        @Override
